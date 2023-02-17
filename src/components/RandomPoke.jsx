@@ -28,7 +28,7 @@ const handleClick=()=>{
     newVlaue()
 } 
 //!set interval
-setInterval(newVlaue, 150000)
+setInterval(newVlaue, 3000)
 
 useEffect(() => {
     dispatch(setNameSlice(setstateRandom?.name))
