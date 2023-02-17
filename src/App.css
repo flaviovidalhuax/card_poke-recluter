@@ -1,0 +1,48 @@
+body{
+    display: grid;
+    place-content: center;
+}
+
+.card_center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem;
+    padding: 2rem;
+
+}
+.card_continer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+}
+
+.section2{
+    display: flex;
+    align-items: center;
+    width: 400px;
+    height: 430px;
+    border: 2px solid black;
+    border-radius: 1rem;
+
+    padding: 1rem;
+    margin-top: 2rem;
+    
+}
+.section2 div{
+    width: 50px;
+    flex-direction: 1;
+    object-fit: cover;
+    opacity: .8;
+    transition: .5s ease;
+    border: 2px solid black;
+    border-radius: 1rem;
+}
+section div:hover{
+    cursor: crosshair;
+    width: 300px;
+    opacity: 1;
+    filter: contrast(120%);
+    border-radius: 1rem;
+}
